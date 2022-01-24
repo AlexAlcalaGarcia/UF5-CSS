@@ -1,0 +1,49 @@
+.setmana {
+    background-color: blue;
+    color:white;
+    width: 100px;
+    height: 20px;
+    margin: 8px 8px;
+    padding: 10px 3px;
+    text-align:center;
+    text-decoration:none;
+    list-style:none;
+    border:3px solid;
+}
+.setmana:hover {
+    background-color: blue;
+    color:white;
+    width: 100px;
+    height: 20px;
+    margin: 8px 8px;
+    padding: 10px 3px;
+    text-align:center;
+    text-decoration:none;
+    list-style:none;
+    border:3px red solid;
+}
+.cap_de_setmana {
+    background-color: green;
+    color:white;
+    width: 100px;
+    height: 20px;
+    margin: 8px 8px;
+    padding: 10px 3px;
+    text-align:center;
+    text-decoration:none;
+    list-style:none;
+    border:3px solid;
+}
+.cap_de_setmana:hover {
+    background-color:grey;
+    font-weight: bold;
+    color:black;
+    width:100px;
+    height:20px;
+    margin:8px 8px;
+    padding:10px 3px;
+    text-align:center;
+    text-decoration:none;
+    list-style:none;
+    border:3px red solid;
+}

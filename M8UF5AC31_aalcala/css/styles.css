@@ -1,0 +1,452 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Agenviatges*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.imagenes img {
+    width: 100%;
+}
+
+#titol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#llac {
+    width: 100%
+}
+#divllac {
+    display: flex;
+    justify-content: center;
+}
+#principi {
+    width: 100%;
+}
+#principi ul {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: rgb(80, 80, 80);
+}
+#principi ul li {
+    width: 180px;
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+    border-left: black solid 1px;
+}
+#principi ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#principi ul li:last-child {
+    border-right: black solid 1px;
+}
+#titol2 {
+    display:flex;
+    justify-content: center;
+    color: rgb(87, 87, 175);
+    font-size: 20px;
+}
+.imagenes {
+    display:flex;
+    justify-content: center;
+    width: 85%;
+}
+.imagenes div img {
+    display: flex;
+    width: 100%;
+}
+.imagenes div img:hover {
+    opacity: 70%;
+}
+.imagenes div {
+    padding: 10px;
+}
+.imagenes div .text {
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    font-style: italic;
+    font-size: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color:rgb(51, 49, 49)
+}
+#missatge {
+    text-align: center;
+    margin: auto;
+    font-size: 9px;
+    width: 50%;
+    padding-top: 15px;
+    color:rgb(80, 80, 80)
+}
+#missatge em {
+    font-weight: bold;
+}
+#botonreserva {
+    margin: 10px;
+    padding: 8px;
+    background-color:rgb(80, 80, 80);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+}
+#botonreserva:hover {
+    opacity: 70%
+}
+#botonreserva a {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    width:100%;
+    display: flex;
+    bottom: 0;
+    border-top: gray solid 1px;
+    padding-top: 0px;
+    justify-content: center;
+}
+#final {
+    width:100%;
+}
+#final ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    justify-content: center;
+    margin-top: 0px;
+}
+#final ul li {
+    width: 100%;
+    font-size: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    color: gray;
+}
+footer #final ul li a {
+    color: gray;
+    text-decoration: none;
+}
+/*Curriculum*/
+
+#principicr {
+    text-align: center;
+    background-color:rgb(80, 80, 80);
+    height: 300px;
+    border-radius: 30px;
+    margin: 40px;
+    margin-bottom: 0px;
+}
+#principicr h2 {
+    padding-top: 1px;
+}
+#principicr img {
+    width: 90px;
+    height: 120px;
+}
+#experiencialaboral {
+    text-align: center;
+    padding-top: 10px;
+}
+#elcr {
+    display: flex;
+    margin: 0px 10px;
+}
+#elcr div {
+    width:100%;
+    text-align: center;
+    padding: 10px;
+    background-color: powderblue;
+    margin: 10px;
+    border-radius: 20px;
+}
+#formacio {
+    text-align: center;
+    padding: 10px;
+}
+#frcr {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+#frcr h4 {
+    width: 100%;
+    text-align: center;
+    background-color: powderblue;
+    margin: 10px;
+    border-radius: 20px;
+}
+#frcr #frcr1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+#frcr #frcr2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+#habidicr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#habidicr div {
+    width: 100%;
+    background-color: powderblue;
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+#habidicr div ul {
+    padding: 0px;
+}
+#habidicr div ul li {
+    list-style: none;
+    text-align: center;
+}
+#habidicr div h2 {
+    padding-bottom: 0px;
+}
+#portafolicr {
+    margin: 10px;
+    padding-bottom: 10px;
+    background-color: powderblue;
+    text-align: center;
+    border-radius: 20px;
+}
+#contactescr {
+    text-align: center;
+    background-color: powderblue;
+    margin: 10px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+#footercr {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    border-top: gray solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+#footercr nav div a {
+    color: gray;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+/*Mondrian*/
+
+#bodymondrian {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#gridmondrian {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 70px);
+}
+#e1 {
+    grid-column: 1 / 3;
+    grid-row: 1
+}
+#e1 img{
+    width: 100%;
+    height: 100%;
+}
+#e1 img:hover {
+    opacity: 70%;
+}
+#e2 {
+    grid-column: 3 / 5;
+    grid-row: 1;
+}
+#e2 img {
+    width: 100%;
+    height: 100%;
+}
+#e2 img:hover {
+    opacity: 70%;
+}
+#e3 {
+    grid-column: 1;
+    grid-row: 2 / 4
+}
+#e3 img{
+    width: 100%;
+    height: 100%;
+}
+#e3 img:hover {
+    opacity: 70%;
+}
+#e4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+#e4 img{
+    width: 100%;
+    height: 100%;
+}
+#e4 img:hover {
+    opacity: 70%;
+}
+#e5 {
+    grid-column: 3 / 5;
+    grid-row: 2;
+}
+#e5 img{
+    width: 100%;
+    height: 100%;
+}
+#e5 img:hover {
+    opacity: 70%;
+}
+#e6 {
+    grid-column: 2;
+    grid-row: 3;
+}
+#e6 img{
+    width: 100%;
+    height: 100%;
+}
+#e6 img:hover {
+    opacity: 70%;
+}
+#e7 {
+    grid-column: 3;
+    grid-row: 3;
+}
+#e7 img{
+    width: 100%;
+    height: 100%;
+}
+#e7 img:hover {
+    opacity: 70%;
+}
+#e8 {
+    grid-column: 4;
+    grid-row: 3;
+}
+#e8 img{
+    width: 100%;
+    height: 100%;
+}
+#e8 img:hover {
+    opacity: 70%;
+}
+#e9 {
+    grid-column: 1;
+    grid-row: 4;
+}
+#e9 img{
+    width: 100%;
+    height: 100%;
+}
+#e9 img:hover {
+    opacity: 70%;
+}
+#e10 {
+    grid-column: 2;
+    grid-row: 4;
+}
+#e10 img{
+    width: 100%;
+    height: 100%;
+}
+#e10 img:hover {
+    opacity: 70%;
+}
+#e11 {
+    grid-column: 3;
+    grid-row: 4;
+}
+#e11 img{
+    width: 100%;
+    height: 100%;
+}
+#e11 img:hover {
+    opacity: 70%;
+}
+#e12 {
+    grid-column: 4;
+    grid-row: 4;
+}
+#e12 img{
+    width: 100%;
+    height: 100%;
+}
+#e12 img:hover {
+    opacity: 70%;
+}
+#footermondrian {
+    margin-top: 10px;
+}
+#footermondrian nav {
+    margin-top: 10px;
+}
+#footermondrian nav div a {
+    color: gray;
+    text-decoration: none;
+    font-size: 10px;;
+}
+
+/*Formulari*/
+#bodyform {
+    background-image: url(../img/llac.jpg);
+}
+#formulari {
+    text-align: center;
+    background-color: gray;
+    margin: 50px;
+    padding-bottom: 10px;
+    opacity: 85%;
+}
+#formfoot nav {
+    margin: 10px;
+}
+#formfoot nav div a {
+    color:gray;
+    text-decoration: none;
+}
+#enviarboton {
+    padding: 20px;
+    border-radius: 100%;
+    border: none;
+}
+#enviarboton a{
+    color: black;
+    text-decoration: none;
+}
+#h3form {
+    padding: 5px;
+}

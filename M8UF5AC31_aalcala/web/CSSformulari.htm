@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body id="bodyform">
+    <form>
+        <div id="formulari">
+            <h1>Formulari d'enregistrament</h1>   
+            <p>Nom: <input type="text" name="nom" maxlength="50"></p>
+            <p>Cognom: <input type="text" name="cognom" maxlength="50"></p>
+            <h3 id="h3form">Sexe:</h3>
+            <p>Home:<input type="radio" name="sexe" value="home"></p>
+            <p>Dona:<input type="radio" name="sexe" value="dona"></p>
+            <p>Correu electrònic: <input type="email" required="" name="email"></p>
+            <p>Vull rebre informació sobre novetats i ofertes <input type="checkbox" name="novetats" checked></p>
+            <p>Declaro haver llegit i acceptar les condicions generals del programa i la normativa sobre protecció de dades indicada al RGPD <input type="checkbox" name="rgpd"></p>
+            <p>
+                Població:   <select name="població">
+                            <option value="arbucies">Arbúcies</option>
+                                <option value="badalona">Badalona</option>
+                                <option value="barcelona">Barcelona</option>
+                                <option value="girona">Girona</option>
+                                <option value="vilassar_de_mar">Vilassar de mar</option>
+                            </select>
+            </p>
+            <p>Descripció:</p>
+            <p><textarea></textarea></p>
+            <p><button id="enviarboton" type="submit" formmethod="get" formaction=""><a href="mailto:alex.alcala@inslapineda.cat?Subject=Formulari&body=Nom= Cognom= Sexe= Correu= Població= Descripció=">Enviar</a></button></p>
+        </div>
+    </form>
+    <footer id="formfoot">
+        <nav>
+            <div><a href="../CSSagenviatges_aalcala.htm">Inici</a></div>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    background-image: url(../img/IMAGEN.png);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+table {
+    width: 70%;
+}
+.p1 {
+    background-color:#1100BD;
+}
+.p2 {
+    background-color:#1300FF;
+}
+.p3 {
+    background-color:#005DFF;
+}
+.p4 {
+    background-color:#4287FF;
+}
+.p5 {
+    background-color:#6EA6FE;
+}
+.p6 {
+    background-color:#70C9FF;
+}
+.p7 {
+    background-color:#70E3FF;
+}
+.p8 {
+    background-color:#70FFF9;
+}
+.p9 {
+    background-color:#9FFFFB;
+}
+.p10 {
+    background-color:#B6FFFC;
+}
+.p1:hover, .p2:hover, .p3:hover, .p4:hover, .p5:hover, .p6:hover, .p7:hover, .p8:hover, .p9:hover, .p10:hover {
+    background-color:#849090;
+}
+.primera {
+    text-decoration: underline black;
+}
+.segona {
+    text-decoration: overline black;
+}
+.tercera {
+    font-weight: bold;
+}
